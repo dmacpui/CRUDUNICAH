@@ -50,6 +50,7 @@ const AlumnoList = () => {
                      
                 </tbody>
             </table>
+            <Link to="/carrera" className="button is-primary mt-2">Agregar una Carrera</Link>
         </div>
     )
 }
