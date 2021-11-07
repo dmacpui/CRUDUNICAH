@@ -11,7 +11,7 @@ import './App.css';
     <BrowserRouter>
     <div className="App">
         <Routes>
-          <Route path='/' element=<AlumnoList />></Route>
+          <Route path='/' element={<AlumnoList />}></Route>
           <Route path='/add' element={<AddAlumno />}></Route>
           <Route path='/edit/:id' element={<EditAlumno />}></Route>
         </Routes>   
