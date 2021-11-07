@@ -8,6 +8,7 @@ import {
     deleteAlumno
 } from "../controllers/Alumnos.js";
 
+
 const router = express.Router();
 
 router.get('/', getAllAlumnos);
